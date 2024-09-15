@@ -758,6 +758,7 @@ height: 67px;
 .tariffs__bottom-text {
 font-size: 16px;
 color: #fff;
+max-width: 573px;
 }
 @media (max-width: 768px) {
     .tariffs__bottom-text {
@@ -772,6 +773,8 @@ color: #fff;
     border-radius: 30px;
     border: 3px solid #A387C4;
     background-color: #4C3D74;
+    align-items: center;
+    display: flex;
 }
 
 .tariffs__bottom-link {
